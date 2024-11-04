@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import img from "../../public/assests/hero.png"
 
 const Hero = () => {
   return (
@@ -39,7 +40,7 @@ const Hero = () => {
       <Image
         className=""
         alt="hero"
-        src={require("../../public/assests/hero.png")}
+        src={img}
       />
     </div>
   </div>
